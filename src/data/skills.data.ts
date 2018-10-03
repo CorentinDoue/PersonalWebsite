@@ -5,7 +5,7 @@ export const SKILLS = {
   'language': [
     new Skill(
       'R',
-      1.5,
+      3,
       'Language and environment for statistical computing and graphics.',
       'I used it in pratical works in courses of statistics and Big Data.',
       [],
@@ -40,14 +40,15 @@ export const SKILLS = {
     ),
     new Skill(
       'PHP',
-      4.5,
+      5,
       'Server-side scripting language designed for Web development, but also used as a' +
       ' general-purpose programming language.',
       'I learned it by myself with MOOCs to develop my first web site. Then I worked with ' +
       'it to develop the backend of other websites. I used it also when I learned the framework Symfony in courses.',
       [new Link('Minesterstellar Website', 'minesterstellar'),
         new Link('International mobility website', 'mobilite'),
-        new Link('Cercle Website', 'cercle')],
+        new Link('Cercle Website', 'cercle'),
+        new Link('Booking Room Site', 'brme')],
       'php.png'
     ),
     new Skill(
@@ -56,10 +57,11 @@ export const SKILLS = {
       'Domain-specific language used for programming and designed for managing data held in ' +
       'a relational database management system, or for stream processing in a relational data stream management system.',
       'I learned it in preparatory classes and had courses on it at the École des Mines. ' +
-      'I used MySQL a lot to manage the data of my three first websites.',
+      'I used MySQL a lot to manage the data of my websites.',
       [new Link('Minesterstellar Website', 'minesterstellar'),
         new Link('International mobility website', 'mobilite'),
-        new Link('Cercle Website', 'cercle')],
+        new Link('Cercle Website', 'cercle'),
+        new Link('Booking Room Site', 'brme')],
       'sql.png'
     ),
     new Skill(
@@ -81,20 +83,21 @@ export const SKILLS = {
         new Link('International mobility website', 'mobilite'),
         new Link('Cercle Website', 'cercle'),
         new Link('Computer Science Course Project', 'project_majeure_info'),
-        new Link('Personal Website', 'spc')],
+        new Link('Personal Website', 'spc'),
+        new Link('Booking Room Site', 'brme')],
       'js.png'
     ),
     new Skill(
       'TypeScript',
-      2,
+      4,
       'Open-source programming language which is a strict syntactical superset of JavaScript.',
       'I learned it by using Angular.',
-      [new Link('Personal Website', 'spc')],
+      [new Link('Personal Website', 'spc'), new Link('Booking Room Site', 'brme')],
       'ts.png'
     ),
     new Skill(
       'Matlab',
-      2.5,
+      3,
       'Multi-paradigm numerical computing environment and proprietary programming language.',
       'I had pratical works with it in treatment of signals and images.',
       [],
@@ -112,7 +115,8 @@ export const SKILLS = {
           new Link('International mobility website', 'mobilite'),
           new Link('Cercle Website', 'cercle'),
           new Link('Computer Science Course Project', 'project_majeure_info'),
-          new Link('Personal Website', 'spc')],
+          new Link('Personal Website', 'spc'),
+          new Link('Booking Room Site', 'brme')],
         'html.png'
       ),
       new Skill(
@@ -124,7 +128,8 @@ export const SKILLS = {
           new Link('International mobility website', 'mobilite'),
           new Link('Cercle Website', 'cercle'),
           new Link('Computer Science Course Project', 'project_majeure_info'),
-          new Link('Personal Website', 'spc')],
+          new Link('Personal Website', 'spc'),
+          new Link('Booking Room Site', 'brme')],
         'css.png'
       ),
       new Skill(
@@ -132,7 +137,7 @@ export const SKILLS = {
         4,
         'Preprocessor scripting language that is interpreted or compiled into CSS.',
         'I learned it by myself on internet to properly use Bootstrap 4 and Material.',
-        [new Link('Personal Website', 'spc')],
+        [new Link('Personal Website', 'spc'), new Link('Booking Room Site', 'brme')],
         'scss.png'
       ),
       new Skill(
@@ -140,15 +145,17 @@ export const SKILLS = {
         4,
         'Free and open-source front-end framework for designing websites and web applications.',
         'I learned it by myself on internet to make quick responsive web sites.',
-        [new Link('Computer Science Course Project', 'project_majeure_info'), new Link('Personal Website', 'spc')],
+        [new Link('Computer Science Course Project', 'project_majeure_info'), new Link('Personal Website', 'spc'),
+          new Link('Booking Room Site', 'brme')],
         'bootstrap.png'
       ),
       new Skill(
         'Material',
         3,
         'Design system – backed by open-source code – that helps teams to build digital experiences.',
-        'I learned it by myself on internet to build this web site.',
-        [new Link('Personal Website', 'spc')],
+        'I learned it by myself on internet to build this web site. ' +
+        'I used it after for the web site I developed to organize the booking of the room of my student house.',
+        [new Link('Personal Website', 'spc'), new Link('Booking Room Site', 'brme')],
         'material.png'
       ),
       new Skill(
@@ -169,10 +176,11 @@ export const SKILLS = {
       ),
       new Skill(
         'Angular',
-        3,
+        4,
         'TypeScript-based open-source front-end web application framework.',
-        'I learned it by myself on internet to build this web site.',
-        [new Link('Personal Website', 'spc')],
+        'I learned it by myself on internet to build this web site. ' +
+        'I used it after for the frontend of the web site I developed to organize the booking of the room of my student house.',
+        [new Link('Personal Website', 'spc'), new Link('Booking Room Site', 'brme')],
         'angular.png'
       ),
       new Skill(
@@ -195,10 +203,11 @@ export const SKILLS = {
       ),
       new Skill(
         'Symfony',
-        3,
+        4,
         'PHP web application framework.',
-        'I learned it in Computer sciences courses.',
-        [],
+        'I learned it in Computer sciences courses. ' +
+        'I used it also for the backend of the web site I made to organize the booking of the room of my student house.',
+        [new Link('Booking Room Site', 'brme')],
         'symfony.png'
       )
     ],
@@ -215,8 +224,9 @@ export const SKILLS = {
         'Composer',
         3.5,
         'Application-level package manager for the PHP programming language.',
-        'I learned it in Computer sciences courses with Symfony.',
-        [],
+        'I learned it in Computer sciences courses with Symfony. ' +
+        'I used it also with Symfony for the web site I made to organize the booking of the room of my student house.',
+        [new Link('Booking Room Site', 'brme')],
         'composer.png'
       ),
       new Skill(
@@ -224,7 +234,7 @@ export const SKILLS = {
         3.5,
         'Package manager for the JavaScript programming language.',
         'I learned it by using Angular.',
-        [new Link('Personal Website', 'spc')],
+        [new Link('Personal Website', 'spc'), new Link('Booking Room Site', 'brme')],
         'npm.png'
       )
     ]
@@ -252,9 +262,17 @@ export const SKILLS = {
       'Photoshop',
       2,
       'Raster graphics editor.',
-      'I used it for personnal stuffs or to preprocess images I want to display on my websites.',
+      'I used it for personnal stuffs, to preprocess images I want to display on my websites and to create some placards for events.',
       [],
       'photoshop.png'
+    ),
+    new Skill(
+      'Gimp',
+      1,
+      'Open source graphics editor.',
+      'I used it for personnal stuffs or to preprocess images I want to display on my websites.',
+      [],
+      'gimp.png'
     ),
     new Skill(
       'Illustrator',
@@ -281,6 +299,16 @@ export const SKILLS = {
       'I learned it in Computer sciences courses and work with it since.',
       [],
       'git.png'
+    ),
+    new Skill(
+      'Docker',
+      2,
+      'Computer program that performs operating-system-level virtualization, also known as "containerization". ' +
+      'Docker is used to run software packages called "containers". ' +
+      'Containers are isolated from each other and bundle their own tools, libraries and configuration files',
+      'I used it during my research internship to post my code on the platform of a Artificial Intelligence challenge.',
+      [new Link('Deep Learning Internship', 'stage_2a')],
+      'docker.png'
     ),
     new Skill(
       'Linux',

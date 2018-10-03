@@ -27,7 +27,7 @@
 
   .intro{
     width: 100%;
-    padding: 20px 240px 20px 240px;
+    padding: 20px 200px 20px 200px;
     text-align: center;
     font-size: 1.2em;
   }
@@ -60,19 +60,19 @@
 
   @media (max-width: map-get($grid-breakpoints, xl)) {
     .intro{
-      padding: 20px 150px 20px 150px;
+      padding: 20px 100px 20px 100px;
     }
   }
 
   @media (max-width: map-get($grid-breakpoints, lg)) {
     .intro{
-      padding: 20px 20px 20px 20px;
+      padding: 20px 10px 20px 10px;
     }
   }
 
   @media (max-width: map-get($grid-breakpoints, md)) {
     .intro{
-      padding: 15px 50px 15px 50px;
+      padding: 15px 70px 15px 70px;
     }
 
     .cv-card{
